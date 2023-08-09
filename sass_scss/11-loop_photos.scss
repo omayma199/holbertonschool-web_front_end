@@ -1,0 +1,12 @@
+// _list-names.scss
+$list-names: apple, banana, cherry, orange, grape;
+@each $name in $list-names {
+    .background-#{$name} {
+      background-image: url('#{$name}.jpg');
+    }
+  }
+  
+  
+  
+  
+  
